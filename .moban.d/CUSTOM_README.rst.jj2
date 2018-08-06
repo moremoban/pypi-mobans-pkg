@@ -1,0 +1,7 @@
+{% extends 'README.rst.jj2' %}
+
+{% block documentation_link %}
+{% endblock %}
+
+{% block features %}The project packages `pypi-mobans <https://github.com/moremoban/pypi>`_ and distributes it via pypi.
+{% endblock %}
