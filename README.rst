@@ -17,7 +17,15 @@ The project packages `pypi-mobans <https://github.com/moremoban/pypi>`_ and dist
 Installation
 ================================================================================
 
-You can get it:
+
+You can install pypi-mobans-pkg via pip:
+
+.. code-block:: bash
+
+    $ pip install pypi-mobans-pkg
+
+
+or clone it and install it:
 
 .. code-block:: bash
 
