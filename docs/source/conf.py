@@ -23,7 +23,7 @@ DESCRIPTION = (
 
 # -- Project information -----------------------------------------------------
 
-project = u'pypi-mobans'
+project = u'pypi-mobans-pkg'
 copyright = u'2018 Onni Software Ltd.'
 author = u'C.W.'
 
@@ -109,7 +109,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'pypi-mobansdoc'
+htmlhelp_basename = 'pypi-mobans-pkgdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -136,7 +136,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'pypi-mobans.tex', u'pypi-mobans Documentation',
+    (master_doc, 'pypi-mobans-pkg.tex', u'pypi-mobans-pkg Documentation',
      u'Onni Software Ltd.', 'manual'),
 ]
 
@@ -146,7 +146,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'pypi-mobans', u'pypi-mobans Documentation',
+    (master_doc, 'pypi-mobans-pkg', u'pypi-mobans-pkg Documentation',
      [author], 1)
 ]
 
@@ -157,8 +157,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'pypi-mobans', u'pypi-mobans Documentation',
-     author, 'pypi-mobans', 'One line description of project.',
+    (master_doc, 'pypi-mobans-pkg', u'pypi-mobans-pkg Documentation',
+     author, 'pypi-mobans-pkg', 'One line description of project.',
      'Miscellaneous'),
 ]
 
@@ -172,9 +172,9 @@ html_theme = 'default'
 
 # TODO: DESCRIPTION not configurable upstream
 texinfo_documents = [
-    ('index', 'pypi-mobans',
-     'pypi-mobans Documentation',
-     'Onni Software Ltd.', 'pypi-mobans',
+    ('index', 'pypi-mobans-pkg',
+     'pypi-mobans-pkg Documentation',
+     'Onni Software Ltd.', 'pypi-mobans-pkg',
      DESCRIPTION,
      'Miscellaneous'),
 ]

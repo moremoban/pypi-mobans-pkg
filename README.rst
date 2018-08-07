@@ -1,12 +1,12 @@
 ================================================================================
-pypi-mobans
+pypi-mobans-pkg
 ================================================================================
 
-.. image:: https://api.travis-ci.org/moremoban/pypi-mobans.svg
-   :target: http://travis-ci.org/moremoban/pypi-mobans
+.. image:: https://api.travis-ci.org/moremoban/pypi-mobans-pkg.svg
+   :target: http://travis-ci.org/moremoban/pypi-mobans-pkg
 
-.. image:: https://codecov.io/github/moremoban/pypi-mobans/coverage.png
-   :target: https://codecov.io/github/moremoban/pypi-mobans
+.. image:: https://codecov.io/github/moremoban/pypi-mobans-pkg/coverage.png
+   :target: https://codecov.io/github/moremoban/pypi-mobans-pkg
 
 .. image:: https://img.shields.io/gitter/room/gitterHQ/gitter.svg
    :target: https://gitter.im/chfw_moban/Lobby
@@ -21,5 +21,5 @@ You can get it:
 
 .. code-block:: bash
 
-    $ git clone https://github.com/moremoban/pypi-mobans.git
-    $ cd pypi-mobans
+    $ git clone https://github.com/moremoban/pypi-mobans-pkg.git
+    $ cd pypi-mobans-pkg

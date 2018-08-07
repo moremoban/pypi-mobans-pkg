@@ -10,7 +10,7 @@ from platform import python_implementation
 PY2 = sys.version_info[0] == 2
 PY26 = PY2 and sys.version_info[1] < 7
 
-NAME = 'pypi-mobans'
+NAME = 'pypi-mobans-pkg'
 AUTHOR = 'C.W.'
 VERSION = '0.0.1'
 EMAIL = 'wangc_2011@hotmail.com'
@@ -18,7 +18,7 @@ LICENSE = 'public license'
 DESCRIPTION = (
     'Scaffolding mobans for your Python project.'
 )
-URL = 'https://github.com/moremoban/pypi-mobans'
+URL = 'https://github.com/moremoban/pypi-mobans-pkg'
 DOWNLOAD_URL = '%s/archive/0.0.0.tar.gz' % URL
 FILES = ['README.rst', 'CHANGELOG.rst']
 KEYWORDS = [
@@ -49,7 +49,7 @@ EXTRAS_REQUIRE = {
 # You do not need to read beyond this line
 PUBLISH_COMMAND = '{0} setup.py sdist bdist_wheel upload -r pypi'.format(
     sys.executable)
-GS_COMMAND = ('gs pypi-mobans v0.0.0 ' +
+GS_COMMAND = ('gs pypi-mobans-pkg v0.0.0 ' +
               "Find 0.0.0 in changelog for more details")
 NO_GS_MESSAGE = ('Automatic github release is disabled. ' +
                  'Please install gease to enable it.')
@@ -80,7 +80,7 @@ class PublishCommand(Command):
             self.status('Removing previous builds...')
             rmtree(os.path.join(HERE, 'dist'))
             rmtree(os.path.join(HERE, 'build'))
-            rmtree(os.path.join(HERE, 'pypi_mobans.egg-info'))
+            rmtree(os.path.join(HERE, 'pypi_mobans_pkg.egg-info'))
         except OSError:
             pass
 
