@@ -12,14 +12,14 @@ PY26 = PY2 and sys.version_info[1] < 7
 
 NAME = 'pypi-mobans-pkg'
 AUTHOR = 'C.W.'
-VERSION = '0.0.1-rc1'
+VERSION = '0.0.1'
 EMAIL = 'wangc_2011@hotmail.com'
 LICENSE = 'public license'
 DESCRIPTION = (
     'Scaffolding mobans for your Python project.'
 )
 URL = 'https://github.com/moremoban/pypi-mobans-pkg'
-DOWNLOAD_URL = '%s/archive/0.0.1-rc1.tar.gz' % URL
+DOWNLOAD_URL = '%s/archive/0.0.1.tar.gz' % URL
 FILES = ['README.rst', 'CHANGELOG.rst']
 KEYWORDS = [
     'python'
@@ -49,8 +49,8 @@ EXTRAS_REQUIRE = {
 # You do not need to read beyond this line
 PUBLISH_COMMAND = '{0} setup.py sdist bdist_wheel upload -r pypi'.format(
     sys.executable)
-GS_COMMAND = ('gs pypi-mobans-pkg v0.0.1-rc1 ' +
-              "Find 0.0.1-rc1 in changelog for more details")
+GS_COMMAND = ('gs pypi-mobans-pkg v0.0.1 ' +
+              "Find 0.0.1 in changelog for more details")
 NO_GS_MESSAGE = ('Automatic github release is disabled. ' +
                  'Please install gease to enable it.')
 UPLOAD_FAILED_MSG = (
