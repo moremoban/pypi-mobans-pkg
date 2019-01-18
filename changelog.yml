@@ -2,10 +2,17 @@ name: "pypi-mobans"
 organisation: moremoban
 releases:
 - changes:
+  - action: Updated
+    details:
+    - use pypi-mobans version 0.0.2
+    - added License file
+  date: 08-11-2018
+  version: 0.0.2.1
+- changes:
   - action: First release
     details:
     - use pypi as pacakge distribution source
     - versioning is applied
-  date: unreleased
-  version: 0.0.1
+  date: 08-11-2018
+  version: 0.0.2
 

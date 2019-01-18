@@ -12,7 +12,7 @@ pypi-mobans-pkg
    :target: https://gitter.im/chfw_moban/Lobby
 
 
-The project packages `pypi-mobans <https://github.com/moremoban/pypi>`_, `gitignore <https://github.com/github/gitignore>_` and distributes it via pypi.
+The project packages `pypi-mobans <https://github.com/moremoban/pypi-mobans>`_, `gitignore <https://github.com/github/gitignore>`_ and distributes it via pypi.
 
 Installation
 ================================================================================

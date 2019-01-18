@@ -3,5 +3,6 @@
 {% block documentation_link %}
 {% endblock %}
 
-{% block features %}The project packages `pypi-mobans <https://github.com/moremoban/pypi>`_, `gitignore <https://github.com/github/gitignore>_` and distributes it via pypi.
+{% block features %}The project packages `pypi-mobans <https://github.com/moremoban/pypi-mobans>`_, `gitignore <https://github.com/github/gitignore>`_ and distributes it via pypi.
 {% endblock %}
+

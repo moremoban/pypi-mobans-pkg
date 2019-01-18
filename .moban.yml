@@ -1,7 +1,11 @@
+requires:
+  - type: git
+    url: https://github.com/moremoban/pypi-mobans
+    submodule: true
 configuration:
   template_dir:
   - ".moban.d"
-  - "mobans/templates"
+  - "pypi-mobans:templates"
   configuration: "pypi-mobans-pkg.yml"
 targets:
   - "README.rst": CUSTOM_README.rst.jj2
