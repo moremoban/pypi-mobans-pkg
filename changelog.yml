@@ -6,7 +6,7 @@ releases:
     details:
     - fix the bug where the pypi-mobans were completely missing 
   date: 22-01-2019
-  version: 0.0.4
+  version: 0.0.3.1
 - changes:
   - action: Updated
     details:
