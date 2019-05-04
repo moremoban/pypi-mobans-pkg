@@ -31,3 +31,9 @@ or clone it and install it:
 
     $ git clone https://github.com/moremoban/pypi-mobans-pkg.git
     $ cd pypi-mobans-pkg
+
+
+Maintenance
+==================
+
+$ git submodule update --init --recursive

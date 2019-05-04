@@ -6,3 +6,11 @@
 {% block features %}The project packages `pypi-mobans <https://github.com/moremoban/pypi-mobans>`_, `gitignore <https://github.com/github/gitignore>`_ and distributes it via pypi.
 {% endblock %}
 
+{% block bottom_block %}
+
+Maintenance
+==================
+
+$ git submodule update --init --recursive
+
+{% endblock %}
