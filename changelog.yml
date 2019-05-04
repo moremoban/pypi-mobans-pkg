@@ -4,9 +4,9 @@ releases:
 - changes:
   - action: Updated
     details:
-    - use pypi-mobans version 0.0.4 and 0.0.5
+    - use pypi-mobans version 0.0.5
   date: 04-05-2019
-  version: 0.0.4
+  version: 0.0.5
 - changes:
   - action: Updated
     details:
