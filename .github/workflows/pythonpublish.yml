@@ -9,9 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: srt32/git-actions@v0.0.3
-        with:
-          args: git submodule update --init --recursive
       - name: Set up Python
         uses: actions/setup-python@v1
         with:
