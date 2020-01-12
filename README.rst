@@ -8,6 +8,12 @@ pypi-mobans-pkg
 .. image:: https://codecov.io/github/moremoban/pypi-mobans-pkg/coverage.png
    :target: https://codecov.io/github/moremoban/pypi-mobans-pkg
 
+.. image:: https://badge.fury.io/py/pypi-mobans-pkg.svg
+   :target: https://pypi.org/project/pypi-mobans-pkg
+
+.. image:: https://pepy.tech/badge/pypi-mobans-pkg/month
+   :target: https://pepy.tech/project/pypi-mobans-pkg/month
+
 .. image:: https://img.shields.io/gitter/room/gitterHQ/gitter.svg
    :target: https://gitter.im/chfw_moban/Lobby
 

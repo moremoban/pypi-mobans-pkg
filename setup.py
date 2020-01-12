@@ -29,14 +29,14 @@ except (ValueError, UnicodeError, locale.Error):
 
 NAME = "pypi-mobans-pkg"
 AUTHOR = "C.W."
-VERSION = "0.0.4"
+VERSION = "0.0.9"
 EMAIL = "wangc_2011@hotmail.com"
 LICENSE = "public license"
 DESCRIPTION = (
     "Scaffolding mobans for your Python project."
 )
 URL = "https://github.com/moremoban/pypi-mobans-pkg"
-DOWNLOAD_URL = "%s/archive/0.0.4.tar.gz" % URL
+DOWNLOAD_URL = "%s/archive/0.0.9.tar.gz" % URL
 FILES = ["README.rst", "CHANGELOG.rst"]
 KEYWORDS = [
     "python",
@@ -70,8 +70,8 @@ EXTRAS_REQUIRE = {
 }
 # You do not need to read beyond this line
 PUBLISH_COMMAND = "{0} setup.py sdist bdist_wheel upload -r pypi".format(sys.executable)
-GS_COMMAND = ("gs pypi-mobans-pkg v0.0.4 " +
-              "Find 0.0.4 in changelog for more details")
+GS_COMMAND = ("gs pypi-mobans-pkg v0.0.9 " +
+              "Find 0.0.9 in changelog for more details")
 NO_GS_MESSAGE = ("Automatic github release is disabled. " +
                  "Please install gease to enable it.")
 UPLOAD_FAILED_MSG = (
@@ -113,7 +113,7 @@ class PublishCommand(Command):
             self.status(NO_GS_MESSAGE)
         if run_status:
             if os.system(PUBLISH_COMMAND) != 0:
-                self.status(UPLOAD_FAILED_MSG % PUBLISH_COMMAND)
+                self.status(UPLOAD_FAILED_MSG)
 
         sys.exit()
 
