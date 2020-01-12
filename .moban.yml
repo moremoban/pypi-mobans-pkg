@@ -1,11 +1,9 @@
-requires:
-  - type: git
-    url: https://github.com/moremoban/pypi-mobans
-    submodule: true
 configuration:
   template_dir:
-  - ".moban.d"
-  - "pypi-mobans:templates"
+    - "git://github.com/moremoban/pypi-mobans.git?branch=dev&submodule=true!/templates"
+    - "git://github.com/moremoban/pypi-mobans.git?branch=dev&submodule=true!/statics"
+    - ".moban.d"
+    - "pypi-mobans:templates"
   configuration: "pypi-mobans-pkg.yml"
 targets:
   - "README.rst": CUSTOM_README.rst.jj2
@@ -21,3 +19,4 @@ targets:
   - output: "CHANGELOG.rst"
     configuration: changelog.yml
     template: CHANGELOG.rst.jj2
+  - ".github/workflows/pythonpublish.yml": "pythonpublish.yml"
