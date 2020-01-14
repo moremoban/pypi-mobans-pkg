@@ -3,11 +3,10 @@ configuration:
     - "git://github.com/moremoban/pypi-mobans.git?branch=dev&submodule=true!/templates"
     - "git://github.com/moremoban/pypi-mobans.git?branch=dev&submodule=true!/statics"
     - ".moban.d"
-    - "pypi-mobans:templates"
   configuration: "pypi-mobans-pkg.yml"
 targets:
   - "README.rst": CUSTOM_README.rst.jj2
-  - "LICENSE": NEW_BSD_LICENSE.jj2
+  - "LICENSE": newbsd_license.jj2
   - "setup.py": custom_setup.py.jj2
   - "requirements.txt": requirements.txt.jj2
   - "tests/requirements.txt": "tests/custom_requirements.txt.jj2"
