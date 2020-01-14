@@ -2,7 +2,7 @@ include README.rst
 include CHANGELOG.rst
 include LICENSE
 include pypi_mobans_pkg/resources/templates/*
-recursive-include pypi_mobans_pkg/resources/statics/*
+recursive-include pypi_mobans_pkg/resources/statics *.*
 recursive-include pypi_mobans_pkg/resources/templates/gitignore *.*
 recursive-include pypi_mobans_pkg/resources/templates/docs *.*
 include pypi_mobans_pkg/resources/templates/tests/*
