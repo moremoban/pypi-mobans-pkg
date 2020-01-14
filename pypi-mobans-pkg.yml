@@ -16,3 +16,4 @@ setup_py: false
 rsrcdir: docs/source
 rbuilddir: docs/_build
 mastertocmaxdepth: 3
+lint_command: bash lint.sh
