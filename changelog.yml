@@ -4,6 +4,12 @@ releases:
 - changes:
   - action: Updated
     details:
+    - bug fix 0.0.10 where statics/azure folder were not included
+  date: 14-1-2020
+  version: 0.0.11
+- changes:
+  - action: Updated
+    details:
     - bug fix 0.0.9 where statics folder were not included
   date: 14-1-2020
   version: 0.0.10
