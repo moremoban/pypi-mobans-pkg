@@ -4,6 +4,15 @@ releases:
 - changes:
   - action: Updated
     details:
+    - use pypi-mobans version 0.0.10
+  - action: Removed
+    details:
+    - unused dependecy on lml is removed
+  date: 03-05-2020
+  version: 0.0.13
+- changes:
+  - action: Updated
+    details:
     - use pypi-mobans version 0.0.9
   date: 14-1-2020
   version: 0.0.12

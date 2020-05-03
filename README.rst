@@ -7,7 +7,6 @@ pypi-mobans-pkg
 
 .. image:: https://codecov.io/github/moremoban/pypi-mobans-pkg/coverage.png
    :target: https://codecov.io/github/moremoban/pypi-mobans-pkg
-
 .. image:: https://badge.fury.io/py/pypi-mobans-pkg.svg
    :target: https://pypi.org/project/pypi-mobans-pkg
 
@@ -16,6 +15,8 @@ pypi-mobans-pkg
 
 .. image:: https://img.shields.io/gitter/room/gitterHQ/gitter.svg
    :target: https://gitter.im/chfw_moban/Lobby
+.. image:: https://img.shields.io/github/stars/moremoban/pypi-mobans-pkg.svg?style=social&maxAge=3600&label=Star
+    :target: https://github.com/moremoban/pypi-mobans-pkg/stargazers
 
 
 The project packages `pypi-mobans <https://github.com/moremoban/pypi-mobans>`_, `gitignore <https://github.com/github/gitignore>`_ and distributes it via pypi.
