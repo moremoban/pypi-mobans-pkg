@@ -5,6 +5,7 @@ include pypi_mobans_pkg/resources/templates/*
 recursive-include pypi_mobans_pkg/resources/statics *.*
 recursive-include pypi_mobans_pkg/resources/templates/gitignore *.*
 recursive-include pypi_mobans_pkg/resources/templates/docs *.*
+recursive-include pypi_mobans_pkg/resources/new-projects/ *.*
 include pypi_mobans_pkg/resources/templates/tests/*
 include pypi_mobans_pkg/resources/config/*
 include pypi_mobans_pkg/resources/yehua.yml
