@@ -4,6 +4,12 @@ releases:
 - changes:
   - action: Updated
     details:
+    - use pypi-mobans version 0.1.0
+  date: 13-09-2020
+  version: 0.1.0
+- changes:
+  - action: Updated
+    details:
     - use pypi-mobans version 0.0.12
   date: 27-08-2020
   version: 0.0.15

@@ -3,9 +3,9 @@ organisation: "moremoban"
 author: "C.W."
 contact: "wangc_2011@hotmail.com"
 company: "Onni Software Ltd. and its contributors"
-version: "0.0.15"
-current_version: "0.0.15"
-release: "0.0.15"
+version: "0.1.0"
+current_version: "0.1.0"
+release: "0.1.0"
 copyright_year: 2018-2020
 license: public license
 dependencies: []
