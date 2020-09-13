@@ -2,6 +2,12 @@ name: "pypi-mobans"
 organisation: moremoban
 releases:
 - changes:
+  - action: Fixed
+    details:
+    - include yehua.yml file in the package
+  date: 13-09-2020
+  version: 0.1.1
+- changes:
   - action: Updated
     details:
     - use pypi-mobans version 0.1.0
