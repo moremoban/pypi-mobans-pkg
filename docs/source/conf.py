@@ -25,9 +25,9 @@ project = 'pypi-mobans-pkg'
 copyright = '2018-2020 Onni Software Ltd. and its contributors'
 author = 'C.W.'
 # The short X.Y version
-version = '0.0.15'
+version = '0.1.0'
 # The full version, including alpha/beta/rc tags
-release = '0.0.15'
+release = '0.1.0'
 
 # -- General configuration ---------------------------------------------------
 
