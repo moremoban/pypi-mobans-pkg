@@ -6,6 +6,12 @@ releases:
     details:
     - include new-project folder in the package
   date: 13-09-2020
+  version: 0.1.3
+- changes:
+  - action: Fixed
+    details:
+    - include new-project folder in the package
+  date: 13-09-2020
   version: 0.1.2
 - changes:
   - action: Fixed
